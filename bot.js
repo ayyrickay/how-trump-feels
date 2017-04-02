@@ -39,6 +39,8 @@ const tweet = function () {
         post.status = 'Trump is okay.'
       }
 
+      post.status = post.status + ' http://twitter.com/realdonaldtrump/status/' + tweet.id_str
+
       Twitter.post('statuses/update', post, (err, response) => {
         if (err) {
           console.error(err)
