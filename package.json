@@ -1,0 +1,19 @@
+{
+  "name": "how-trump-feels",
+  "version": "1.0.0",
+  "description": "A twitter bot that analyzes tweet sentiment and provides commentary",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricky Holtz",
+  "license": "ISC",
+  "dependencies": {
+    "foreman": "2.0.0",
+    "twit": "^2.2.5"
+  },
+  "engines": {
+    "node": "7.7.4"
+  }
+}
